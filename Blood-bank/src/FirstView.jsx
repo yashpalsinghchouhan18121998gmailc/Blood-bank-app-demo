@@ -8,7 +8,7 @@ const FirstView = () => {
 
     const [isActive, setIsActive] = useState(false);
     const handleClickbtn = e => {
-        // 👇️ toggle isActive state on click
+        
         setIsActive(current => !current);
       };
 
